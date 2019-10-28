@@ -818,7 +818,7 @@ def helpbot():
     helpMessage2 += "┃ " + "╭───⍟✿保護群清單✿⍟─\n"
     helpMessage2 += "┃" + " ├───༼✿購買找 line ID: yui55529✿༽──\n"
     helpMessage2 += "┃" + " ├──────────────\n"
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Allpro  on/off \n"
+    helpMessage2 += "╠❂➣ %i. " % num + key + "Allpro on/off \n"
     num = (num+1)
     helpMessage2 += "╠❂➣ %i. " % num + key + "Spaminvite on \n"
     num = (num+1)
@@ -838,9 +838,9 @@ def helpbot():
     num = (num+1)
     helpMessage2 += "╠❂➣ %i. " % num + key + "Js on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "JS 進\n"
+    helpMessage2 += "╠❂➣ %i. " % num + key + "ghost in\n"
     num = (num+1)  
-    helpMessage2 += "╠❂➣ %i. " % num + key + "JS 退\n"
+    helpMessage2 += "╠❂➣ %i. " % num + key + "ghost lv\n"
     num = (num+1)  
     helpMessage2 += "╠❂➣ %i. " % num + key + "Autojointicket on/off\n"
     num = (num+1)
@@ -5066,7 +5066,7 @@ def bot(op):
                                 settings["groupPicture"] = True
                                 cl.sendMessage(msg.to,"Send Picture") 
                        
-                        elif cmd == "更換所有兵圖片":
+                        elif cmd == "upbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 settings["changePicture"] = True
@@ -5610,7 +5610,7 @@ def bot(op):
                                 k10.sendMessage(msg.to, "Pulang dulu "+str(G.name))
                                 k10.leaveGroup(msg.to)
                                                                                                              
-                        elif cmd == "JS 進":
+                        elif cmd == "ghost in":
                           if msg._from in admin:
                            if msg.toType == 2:
                                group = cl.getGroup(to)
@@ -5623,7 +5623,7 @@ def bot(op):
                                g2.acceptGroupInvitationByTicket(to,format(str(ticket)))
                                time.sleep(0.01)
                                
-                        elif cmd == "JS 退":
+                        elif cmd == "ghost lv":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
