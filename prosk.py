@@ -39,11 +39,11 @@ BMID = k2.profile.mid
 CMID = k3.profile.mid
 DMID = k4.profile.mid
 EMID = k5.profile.mid
-FMID = s6.profile.mid
-GMID = s7.profile.mid
-HMID = s8.profile.mid
-IMID = s9.profile.mid
-JMID = s10.profile.mid
+FMID = k6.profile.mid
+GMID = k7.profile.mid
+HMID = k8.profile.mid
+IMID = k9.profile.mid
+JMID = k10.profile.mid
 g1MID = g1.profile.mid
 g2ID = g2.profile.mid
 
