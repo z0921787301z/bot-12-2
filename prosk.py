@@ -4008,8 +4008,8 @@ def bot(op):
                                                    try:  
                                                        k10.cancelGroupInvitation(op.param1,[op.param3])
                                                        k10.kickoutFromGroup(op.param1,[op.param2])   
-                                                  except:        
-                                                      pass
+                                                   except:        
+                                                       pass
 #====================================================================                                                                
 #===================================================================================================              
         if op.type == 25 or op.type == 26:
