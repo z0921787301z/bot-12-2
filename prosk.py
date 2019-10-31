@@ -2112,7 +2112,7 @@ def bot(op):
                                                             k7.acceptGroupInvitation(op.param1)
                                                             k8.acceptGroupInvitation(op.param1)
                                                             k9.acceptGroupInvitation(op.param1)
-                                                           k10.acceptGroupInvitation(op.param1)
+                                                            k10.acceptGroupInvitation(op.param1)
                                                         except:
                                                             try:
                                                                 G = random.choice(ABC).getGroup(op.param1)
