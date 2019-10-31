@@ -2941,9 +2941,9 @@ def bot(op):
                                                                 random.choice(ABC).updateGroup(X) 
                                                             except:
                                                                     try:
-                                                                    k3.kickoutFromGroup(op.param1,[op.param2])
-                                                                    k2.inviteIntoGroup(op.param1,[op.param3])
-                                                                    k4.acceptGroupInvitation(op.param1)
+                                                                        k3.kickoutFromGroup(op.param1,[op.param2])
+                                                                        k2.inviteIntoGroup(op.param1,[op.param3])
+                                                                        k4.acceptGroupInvitation(op.param1)
                                                                 except:
                                                                     try:
                                                                         random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
