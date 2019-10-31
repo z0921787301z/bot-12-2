@@ -3154,7 +3154,7 @@ def bot(op):
                                                                         k4.acceptGroupInvitation(op.param1)
                                                                     except:
                                                                         pass                                                                        
-               return 
+                return 
             if Gmid in op.param3:
                 if op.param2 in Bots:
                     pass
