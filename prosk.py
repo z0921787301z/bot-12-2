@@ -3100,61 +3100,61 @@ def bot(op):
                                                         k8.acceptGroupInvitation(op.param1)
                                                         k9.acceptGroupInvitation(op.param1)
                                                         k10.acceptGroupInvitation(op.param1)
-                                                   except:
-                                                       try:
-                                                           k9.kickoutFromGroup(op.param1,[op.param2])
-                                                           k9.inviteIntoGroup(op.param1,[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid])
-                                                           cl.acceptGroupInvitation(op.param1)
-                                                           k1.acceptGroupInvitation(op.param1)
-                                                           k2.acceptGroupInvitation(op.param1)
-                                                           k3.acceptGroupInvitation(op.param1)
-                                                           k4.acceptGroupInvitation(op.param1)
-                                                           k5.acceptGroupInvitation(op.param1)
-                                                           k6.acceptGroupInvitation(op.param1)
-                                                           k7.acceptGroupInvitation(op.param1)
-                                                           k8.acceptGroupInvitation(op.param1)
-                                                           k9.acceptGroupInvitation(op.param1)
-                                                           k10.acceptGroupInvitation(op.param1)
-                                                       except:
-                                                           try:
-                                                               G = random.choice(ABC).getGroup(op.param1)
-                                                               G.preventedJoinByTicket = False
-                                                               random.choice(ABC).updateGroup(G)
-                                                               invsend = 0
-                                                               Ticket = random.choice(ABC).reissueGroupTicket(op.param1)
-                                                               g1.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               g2.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               cl.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               k1.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               k2.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               k3.acceptGroupInvitationByTicket(op.param1,Ticket)	
-                                                               k4.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               k5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               k6.acceptGroupInvitationByTicket(op.param1,Ticket)	
-                                                               k7.acceptGroupInvitationByTicket(op.param1,Ticket)	
-                                                               k8.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                                               k9.acceptGroupInvitationByTicket(op.param1,Ticket)	
-                                                               k10.acceptGroupInvitationByTicket(op.param1,Ticket)		
-                                                               random.choice(KICKER).kickoutFromGroup(op.param1,[op.param2])
-                                                               random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
-                                                               g1.leaveGroup(op.param1)
-                                                               g2.leaveGroup(op.param1)
-                                                               X = random.choice(ABC).getGroup(op.param1)
-                                                               X.preventedJoinByTicket = True
-                                                               random.choice(ABC).updateGroup(X) 
-                                                           except:
-                                                               try:
-                                                                   k3.kickoutFromGroup(op.param1,[op.param2])
-                                                                   k2.inviteIntoGroup(op.param1,[op.param3])
-                                                                   k4.acceptGroupInvitation(op.param1)
-                                                               except:
-                                                                   try:
-                                                                       random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
-                                                                       random.choice(ABC).inviteIntoGroup(op.param1,[op.param3])
-                                                                       k4.acceptGroupInvitation(op.param1)
-                                                                   except:
-                                                                       pass                                                                        
-                return
+                                                    except:
+                                                        try:
+                                                            k9.kickoutFromGroup(op.param1,[op.param2])
+                                                            k9.inviteIntoGroup(op.param1,[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid])
+                                                            cl.acceptGroupInvitation(op.param1)
+                                                            k1.acceptGroupInvitation(op.param1)
+                                                            k2.acceptGroupInvitation(op.param1)
+                                                            k3.acceptGroupInvitation(op.param1)
+                                                            k4.acceptGroupInvitation(op.param1)
+                                                            k5.acceptGroupInvitation(op.param1)
+                                                            k6.acceptGroupInvitation(op.param1)
+                                                            k7.acceptGroupInvitation(op.param1)
+                                                            k8.acceptGroupInvitation(op.param1)
+                                                            k9.acceptGroupInvitation(op.param1)
+                                                            k10.acceptGroupInvitation(op.param1)
+                                                        except:
+                                                            try:
+                                                                G = random.choice(ABC).getGroup(op.param1)
+                                                                G.preventedJoinByTicket = False
+                                                                random.choice(ABC).updateGroup(G)
+                                                                invsend = 0
+                                                                Ticket = random.choice(ABC).reissueGroupTicket(op.param1)
+                                                                g1.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                g2.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                k1.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                k2.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                k3.acceptGroupInvitationByTicket(op.param1,Ticket)	
+                                                                k4.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                k5.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                k6.acceptGroupInvitationByTicket(op.param1,Ticket)	
+                                                                k7.acceptGroupInvitationByTicket(op.param1,Ticket)	
+                                                                k8.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                                                k9.acceptGroupInvitationByTicket(op.param1,Ticket)	
+                                                                k10.acceptGroupInvitationByTicket(op.param1,Ticket)		
+                                                                random.choice(KICKER).kickoutFromGroup(op.param1,[op.param2])
+                                                                random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
+                                                                g1.leaveGroup(op.param1)
+                                                                g2.leaveGroup(op.param1)
+                                                                X = random.choice(ABC).getGroup(op.param1)
+                                                                X.preventedJoinByTicket = True
+                                                                random.choice(ABC).updateGroup(X) 
+                                                            except:
+                                                                try:
+                                                                    k3.kickoutFromGroup(op.param1,[op.param2])
+                                                                    k2.inviteIntoGroup(op.param1,[op.param3])
+                                                                    k4.acceptGroupInvitation(op.param1)
+                                                                except:
+                                                                    try:
+                                                                        random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
+                                                                        random.choice(ABC).inviteIntoGroup(op.param1,[op.param3])
+                                                                        k4.acceptGroupInvitation(op.param1)
+                                                                    except:
+                                                                        pass                                                                        
+               return 
             if Gmid in op.param3:
                 if op.param2 in Bots:
                     pass
