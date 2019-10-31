@@ -1377,10 +1377,7 @@ def bot(op):
                                                                 k10.kickoutFromGroup(op.param1, [op.param2])
                                                                 bl["blacklist"][op.param2] = True
                                                         except:
-                                                   	    pass
-                return                     
-#==================================================================== 
-						
+                                                   	    pass						
        
         if op.type == 17:
             if op.param1 in protectjoin:
