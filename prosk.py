@@ -1360,7 +1360,7 @@ def bot(op):
                                                        bl["blacklist"][op.param2] = True
                                                 except:
                                                     try:
-                                                        group = k8.getGroup(op.param1)
+                                                        group = k9.getGroup(op.param1)
                                                         inv1 = op.param3.replace('\x1e',',')
                                                         inv2 = inv1.split(',')
                                                         for target in inv2:
@@ -1369,7 +1369,7 @@ def bot(op):
                                                             bl["blacklist"][op.param2] = True
                                                     except:
                                                         try:
-                                                            group = k8.getGroup(op.param1)
+                                                            group = k10.getGroup(op.param1)
                                                             inv1 = op.param3.replace('\x1e',',')
                                                             inv2 = inv1.split(',')
                                                             for target in inv2:
