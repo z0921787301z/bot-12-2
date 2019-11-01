@@ -1788,70 +1788,70 @@ def bot(op):
                     try:
                         if op.param3 not in bl["blacklist"]:
                             k1.kickoutFromGroup(op.param1,[op.param2])
-                            k1.inviteIntoGroup(op.param1,[g1MID,g2MID])
+                            k1.inviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                             k1.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                             k1.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)									
                     except:
                         try:
                             if op.param3 not in bl["blacklist"]:
                                 k2.kickoutFromGroup(op.param1,[op.param2])
-                                k2.inviteIntoGroup(op.param1,[g1MID,g2MID])
+                                k2.inviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                 k2.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                 k2.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)										
                         except:
                             try:
                                 if op.param3 not in bl["blacklist"]:
                                     k3.kickoutFromGroup(op.param1,[op.param2])
-                                    k3.inviteIntoGroup(op.param1,[g1MID,g2MID])
+                                    k3.inviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                     k3.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                     k3.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)										
                             except:
                                 try:
                                     if op.param3 not in bl["blacklist"]:
                                         k4.kickoutFromGroup(op.param1,[op.param2])
-                                        k4.inviteIntoGroup(op.param1,[g1MID,g2MID])
+                                        k4.inviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                         k4.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                         k4.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)											
                                 except:
                                     try:
                                         if op.param3 not in bl["blacklist"]:
                                             k5.kickoutFromGroup(op.param1,[op.param2])
-                                            k5.inviteIntoGroup(op.param1,[g1MID,g2MID])
+                                            k5.inviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                             k5.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                             k5.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                                     except:
                                         try:
                                             if op.param3 not in bl["blacklist"]:
                                                 k6.kickoutFromGroup(op.param1,[op.param2])
-                                                k6.inviteIntoGroup(op.param1,[g1MID,g2MID])
+                                                k6.inviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                                 k6.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                                 k6.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)			
                                         except:
                                             try:
                                                 if op.param3 not in bl["blacklist"]:
                                                     k7.kickoutFromGroup(op.param1,[op.param2])
-                                                    k7.inviteIntoGroup(op.param1,[g1MID,g2MID])
+                                                    k7.inviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                                     k7.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                                     k7.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)														
                                             except:
                                                 try:
                                                     if op.param3 not in bl["blacklist"]:
                                                         k8.kickoutFromGroup(op.param1,[op.param2])
-                                                        k8.nviteIntoGroup(op.param1,[g1MID,g2MID])
+                                                        k8.nviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                                         k8.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                                         k8.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                                                 except:
                                                     try:
                                                         if op.param3 not in bl["blacklist"]:
                                                             k9.kickoutFromGroup(op.param1,[op.param2])
-                                                            k9.nviteIntoGroup(op.param1,[g1MID,g2MID])
+                                                            k9.nviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                                             k9.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                                             k9.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                                                     except:
                                                         try:
                                                             if op.param3 not in bl["blacklist"]:
                                                                 k10.kickoutFromGroup(op.param1,[op.param2])
-                                                                k10.nviteIntoGroup(op.param1,[g1MID,g2MID])
+                                                                k10.nviteIntoGroup(op.param1,[MID,AMID,BMID,CMID,DMID,EMID,FMID,GMID,HMID,IMID,JMID,g1MID,g2MID])
                                                                 k10.sendMessage(op.param1,"Heh Maen cancel cipok ni 🙍")
                                                                 k10.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)																
                                                         except:
